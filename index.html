@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Wireframe</title>
+    <title>Portifólio</title>
     <!-- CSS -->
     <style type="text/css">
         * {
@@ -64,14 +64,14 @@
 
         .section-1 {
             .s1-img-container {
-                height: 700px;
-                background-color: gray;
+                height: 560px;
+                background-color: #585858;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
                 display: flex;
                 flex-direction: column;
-                padding: 30px 0 0;
+                padding: 70px 0 0;
 
                 .s1-bubble-container1 {
                     position: absolute;
@@ -106,6 +106,7 @@
                 .s1-image-b1 {
                     width: fit-content;
                     overflow: hidden;
+                    width: 500px;
                 }
 
                 .s1-container {
@@ -115,11 +116,13 @@
                     margin: auto;
                     width: 100%;
                     padding-left: 10px;
+                    color: white;
                 }
 
                 .s1-container1 {
                     display: flex;
                     justify-content: center;
+                    margin-left: 15%;
                 }
 
                 .s1-container2 {
@@ -132,6 +135,7 @@
                     margin-top: auto;
                     margin-bottom: auto;
                     gap: 10px;
+                    z-index: 10;
 
                     p {
                         max-width: 375px;
@@ -165,9 +169,9 @@
 
             .banner-p2 {
                 font-family: 'Poppins';
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 60px;
                 margin-top: 24px;
 
                 span {
@@ -182,7 +186,7 @@
             .banner-p3 {
                 font-family: 'Poppins';
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 16px;
                 line-height: 21px;
                 margin-top: 24px;
                 text-align: center;
@@ -195,7 +199,7 @@
             .section-1 {
                 .s1-img-container {
                     height: fit-content;
-                    background-color: gray;
+                    background-color: #585858;
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: right;
@@ -223,12 +227,13 @@
                     .s1-container1 {
                         display: flex;
                         flex-direction: column;
+                        margin-left: 0;
                     }
 
                     .s1-image-b1 {
                         width: fit-content;
                         overflow: hidden;
-                        width: 350px;
+                        width: 450px;
                     }
 
                     .s1-content1 {
@@ -283,13 +288,13 @@
 
                     .s2-title {
                         font-family: Poppins;
-                        font-size: 32px;
-                        font-weight: 600;
-                        line-height: 46px;
+                        font-size: 46px;
+                        font-weight: 700;
+                        line-height: 50px;
                         text-align: center;
 
                         span {
-                            color: gray;
+                            color: #585858;
                         }
                     }
                 }
@@ -324,12 +329,12 @@
                                 text-align: center;
                                 min-width: 25%;
                                 margin: auto 0;
-                                color: gray;
+                                color: #585858;
                             }
 
                             .s2-text-box {
                                 height: fit-content;
-                                border-left: 3px solid gray;
+                                border-left: 3px solid #585858;
                                 padding-left: 20px;
                                 margin: auto 0;
 
@@ -339,7 +344,7 @@
                                     font-weight: 600;
                                     line-height: 30px;
                                     text-align: left;
-                                    color: gray;
+                                    color: #585858;
                                 }
                             }
                         }
@@ -356,7 +361,7 @@
 
                     .s2-button-row.s2-active {
                         .s2-button {
-                            background: gray;
+                            background: #585858;
 
                             .s2-number {
                                 color: white;
@@ -445,7 +450,7 @@
         }
 
         .section-3 {
-            background-color: gray;
+            background-color: #585858;
             background-size: cover;
             padding: 60px 20px;
 
@@ -563,7 +568,7 @@
 
             li.slick-active {
                 background: white !important;
-                color: gray !important;
+                color: #585858 !important;
             }
 
             .slick-slide img {
@@ -605,7 +610,6 @@
         }
 
         .adopt---why {
-            margin-right: 15px;
             width: 100%;
         }
 
@@ -628,7 +632,7 @@
 
         .adopt---reasons-text-div {
             box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.2);
-            width: 501px;
+            width: 200px;
             height: 72px;
             border-radius: 10px;
             max-width: 95%;
@@ -641,12 +645,11 @@
         .adopt---reasons-text {
             width: 75%;
             display: inline-block;
-            margin-left: 25px;
             font-family: 'Poppins', sans-serif;
         }
 
         .adopt---why-Title-span {
-            color: gray;
+            color: #585858;
         }
 
         .--benefits-title {
@@ -671,7 +674,7 @@
         }
 
         .--benefits-block {
-            background-color: gray;
+            background-color: #585858;
             display: inline-block;
             border-radius: 30px;
             width: 201px;
@@ -687,6 +690,10 @@
 
         .--benefits-img {
             width: 101px;
+        }
+
+        .--benefits-img1 {
+            width: 125px;
         }
 
         .--benefits-img-n {
@@ -732,6 +739,13 @@
                 img {
                     max-width: 100%;
                 }
+            }
+            .s1-content2 {
+                max-width: 50% !important;
+            }
+            .s1-profile {
+                max-width: 100% !important;
+                width: 500px;
             }
         }
 
@@ -860,7 +874,7 @@
             font-weight: 600;
             line-height: 26px;
             text-align: left;
-            color: gray
+            color: #585858
         }
 
         .s3-s-t2 {
@@ -914,7 +928,6 @@
                 justify-content: space-evenly;
                 width: 90%;
                 margin: 30px auto 0;
-                min-height: 370px;
                 max-width: 630px;
                 height: fit-content;
             }
@@ -940,7 +953,6 @@
             .s3-s-b-i-1 {
                 max-width: 50%;
                 margin: 20px auto 30px;
-                display: none;
             }
 
             .section-3 {
@@ -960,7 +972,7 @@
             }
 
             .slick-track {
-                height: 560px;
+                height: 585px;
             }
         }
 
@@ -1027,7 +1039,7 @@
         }
 
         .s2-active .s2-sub-text-box2 {
-            background: gray;
+            background: #585858;
             color: white;
         }
 
@@ -1049,6 +1061,9 @@
             .section-3 .slick-slide {
                 max-height: fit-content !important;
             }
+            .s2-contents{
+                flex-direction: column !important;
+            }
         }
 
         .section-3 .slick-slide {
@@ -1060,7 +1075,7 @@
             height: 100px;
             background: black;
             width: 100%;
-            z-index: 10;
+            z-index: 100;
             color: white;
             font-family: 'Poppins';
             font-weight: 400;
@@ -1074,7 +1089,7 @@
             }
 
             .sh-d1 {
-                width: 199px;
+                width: 125px;
                 margin: auto;
                 height: fit-content;
                 font-size: 20px;
@@ -1098,19 +1113,33 @@
                 }
             }
         }
+        .s1-profile{
+            max-width: 50%;
+            width: 500px;
+        }
+        .adopt---reasons{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            width: 450px;
+            margin: auto;
+            text-align: center;
+        }
         .s2-contents{
             display: flex;
             flex-direction: row;
-            margin: 100px auto;
+            margin: 70px auto 100px;
 
             .s2-d1{
                 display: flex;
                 flex-direction: column;
                 text-align: center;
                 width: 300px;
+                margin-top: 30px;
 
                 .s2-d1-d1{
-                    background: gray;
+                    background: #585858;
                     width: 75px;
                     height: 75px;
                     border-radius: 8px;
@@ -1159,20 +1188,20 @@
     <section class="section-header desktop">
         <div>
             <div class="sh-d1">
-                <p>Lorem ipsum</p>
+                <p>Portifólio</p>
             </div>
             <div class="sh-d2">
                 <div>
-                    <p id="sec-1">Lorem ipsum</p>
+                    <p id="sec-1">Perfil</p>
                 </div>
                 <div>
-                    <p id="sec-2">Lorem ipsum</p>
+                    <p id="sec-2">Hebilidades</p>
                 </div>
                 <div>
-                    <p id="sec-3">Lorem ipsum</p>
+                    <p id="sec-3">Experiência</p>
                 </div>
                 <div>
-                    <p id="sec-4">Lorem ipsum</p>
+                    <p id="sec-4">Contatos</p>
                 </div>
             </div>
         </div>
@@ -1185,28 +1214,21 @@
                         <div class="s1-content1">
 
                             <p class="banner-p2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident.
+                                Bruno César Guisso de Souza
                             </p>
                         </div>
                         <div class="s1-content2">
-                            <img src="./assets/square.png" />
+                            <img class="s1-profile" src="./assets/profile.png" />
                         </div>
                     </div>
                     <div class="s1-container2">
                         <div class="s1-content3">
-                            <p class="banner-p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                            <p class="banner-p3">Me chamo Bruno César Guisso de Souza.<br/> Tenho 21 anos e sou Estudante do Curso de Ciência da Computação na UNIJUÍ no campus de Ijuí</p>
                         </div>
                     </div>
                 </div>
-
+                <div class="s1-bubble-container1"><img alt="background bubbles" class="s1-image-b1"
+                    src="./assets/Subtract.png" /></div>
             </div>
         </div>
     </section>
@@ -1215,20 +1237,20 @@
         <div class="adopt---container">
             <div class="adopt---why">
                 <div class="adopt---why-container">
-                    <div class="adopt---why-Title"><span>Lorem ipsum dolor sit amet</span></div>
+                    <div class="adopt---why-Title"><span>Minhas Habilidades</span></div>
 
                     <div class="adopt---reasons">
-                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">Lorem ipsum dolor sit
-                                amet</span></div>
+                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">Java</span></div>
 
-                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">Lorem ipsum dolor sit
-                                amet</span></div>
+                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">JavaScript</span></div>
 
-                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">Lorem ipsum dolor sit
-                                amet</span></div>
+                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">C++</span></div>
 
-                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">Lorem ipsum dolor sit
-                                amet</span></div>
+                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">HTML</span></div>
+
+                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">CSS</span></div>
+                        
+                        <div class="adopt---reasons-text-div"><span class="adopt---reasons-text">Python</span></div>
                     </div>
                 </div>
             </div>
@@ -1240,41 +1262,34 @@
                 <div class="--benefits">
                     <div class="--benefits-block">
                         <div class="--benefits-content">
-                            <div class="--benefits-img-div"><img class="--benefits-img" src="./assets/square.png" />
+                            <div class="--benefits-img-div"><img class="--benefits-img1" src="./assets/embeded.png" />
                             </div>
 
-                            <div class="--benefits-text-div"><span class="--benefits-text">Lorem ipsum</span></div>
+                            <div class="--benefits-text-div"><span class="--benefits-text">Web Development</span></div>
                         </div>
                     </div>
 
                     <div class="--benefits-block">
                         <div class="--benefits-content">
-                            <div class="--benefits-img-div"><img class="--benefits-img" src="./assets/square.png" />
+                            <div class="--benefits-img-div"><img class="--benefits-img1" src="./assets/game.png" />
                             </div>
 
-                            <div class="--benefits-text-div"><span class="--benefits-text">Lorem ipsum</span></div>
-                        </div>
-                    </div>
-
-                    <div class="--benefits-block">
-                        <div class="--benefits-content">
-                            <div class="--benefits-img-div"><img class="--benefits-img-n" src="./assets/square.png" />
-                            </div>
-
-                            <div class="--benefits-text-div"><span class="--benefits-text">Lorem ipsum</span></div>
+                            <div class="--benefits-text-div"><span class="--benefits-text">Game Development</span></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="sx-bubble-container1"><img alt="background bubbles" class="sx-image-b1"
+            src="./assets/Union.png" /></div>
     </section>
 
     <section class="section-3">
+        <div class="s3-bubble-container1"><img alt="background bubbles" class="s3-image-b1"
+            src="./assets/Subtract2.png" /></div>
         <div class="container s3-slider">
             <div class="s3-div-t">
-                <h3 class="s3-title">Lorem ipsum dolor sit amet <span id="span-slide">xxxxx</span> consectetur
-                    adipiscing</h3>
+                <h3 class="s3-title">Tenho experiência em <span id="span-slide">suporte técnico</span></h3>
             </div>
 
             <div class="single-item-1">
@@ -1282,29 +1297,29 @@
                     <div class="s3-s-b">
                         <div class="s3-s-b-i">
                             <div class="s3-s-b-i-1">
-                                <img src="./assets/square.png">
+                                <img src="./assets/support.png">
                             </div>
                             <div class="s3-s-b-i-3">
-                                Lorem<br />ipsum
+                                Tech<br/>Support
                             </div>
                         </div>
                         <div class="s3-s-b-rl">
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">Meu cargo</p>
+                                    <p class="s3-s-t2">Trabalhava como suporte técnico</p>
                                 </div>
                             </div>
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">3 anos de experiência</p>
+                                    <p class="s3-s-t2">Trabalhei entre 2018 e 2020 nesse meio</p>
                                 </div>
                             </div>
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">Meu trabalho</p>
+                                    <p class="s3-s-t2">Dava assistência a hospedagem de sites e servidores</p>
                                 </div>
                             </div>
                         </div>
@@ -1314,29 +1329,29 @@
                     <div class="s3-s-b">
                         <div class="s3-s-b-i">
                             <div class="s3-s-b-i-1">
-                                <img src="./assets/square.png">
+                                <img src="./assets/minecraft.png">
                             </div>
                             <div class="s3-s-b-i-3">
-                                Lorem<br />ipsum
+                                Minecraft<br />Modding
                             </div>
                         </div>
                         <div class="s3-s-b-rl">
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">Minha experiência</p>
+                                    <p class="s3-s-t2">Trabalhava como modder de Minecraft</p>
                                 </div>
                             </div>
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">2 anos de experiência</p>
+                                    <p class="s3-s-t2">Trabalhei entre 2020 e 2021 nesse meio</p>
                                 </div>
                             </div>
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">Meu trabalho</p>
+                                    <p class="s3-s-t2">Criação de Plugins(Add-ons) para servidores de Minecraft</p>
                                 </div>
                             </div>
                         </div>
@@ -1346,29 +1361,29 @@
                     <div class="s3-s-b">
                         <div class="s3-s-b-i">
                             <div class="s3-s-b-i-1">
-                                <img src="./assets/square.png">
+                                <img src="./assets/java.png">
                             </div>
                             <div class="s3-s-b-i-3">
-                                Lorem<br />ipsum
+                                Java<br/>Development
                             </div>
                         </div>
                         <div class="s3-s-b-rl">
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">Minha experiência</p>
+                                    <p class="s3-s-t2">Criando Plugins para Minecraft e utilizando na faculadade</p>
                                 </div>
                             </div>
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">4 anos de experiência</p>
+                                    <p class="s3-s-t2">Utilizo Java desde que entrei na faculdade</p>
                                 </div>
                             </div>
                             <div class="s3-s-b-row">
                                 <div class="s3-s-t-div">
-                                    <p class="s3-s-t1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                    <p class="s3-s-t2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p class="s3-s-t1">Meu trabalho</p>
+                                    <p class="s3-s-t2">Utilizava durante a criação de Plugins para Minecraft</p>
                                 </div>
                             </div>
                         </div>
@@ -1406,24 +1421,24 @@
                 <div class="s2-contents">
                     <div class="s2-d1">
                         <div class="s2-d1-d1">
-                            <img class="s2-whatsapp" src="./assets/square.png" />
+                            <img class="s2-whatsapp" src="./assets/whatsapp.png" />
                         </div>
                         <div class="s2-d1-d2">
-                            <p>Lorem ipsum</p>
+                            <p>Whatsapp</p>
                         </div>
                         <div class="s2-d1-d3">
-                            <p>Lorem ipsum</p>
+                            <p>(55) 99192-0348</p>
                         </div>
                     </div>
                     <div class="s2-d1">
                         <div class="s2-d1-d1">
-                            <img class="s2-email" src="./assets/square.png" />
+                            <img class="s2-email" src="./assets/email.png" />
                         </div>
                         <div class="s2-d1-d2">
-                            <p>Lorem ipsum</p>
+                            <p>E-mail</p>
                         </div>
                         <div class="s2-d1-d3">
-                            <p>Lorem ipsum</p>
+                            <p>bruno.guisso58@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -1476,7 +1491,7 @@
                         elements.forEach(function (element, i) {
                             if (i < index) {
                                 element.style.backgroundColor = 'white';
-                                element.style.color = 'gray';
+                                element.style.color = '#585858';
 
                             } else if (i > index) {
                                 element.style.backgroundColor = 'black';
@@ -1488,11 +1503,11 @@
                         spanSlide.style.opacity = '0';
                         setTimeout(function () {
                             if (index === 1) {
-                                spanSlide.textContent = 'yyyyy';
+                                spanSlide.textContent = 'criação de Plugins para Minecraft';
                             } else if (index === 2) {
-                                spanSlide.textContent = 'zzzzz';
+                                spanSlide.textContent = 'desenvolvimento Java';
                             } else {
-                                spanSlide.textContent = 'xxxxx';
+                                spanSlide.textContent = 'suporte técnico';
                             }
                             spanSlide.style.opacity = '1';
                         }, 250);
